@@ -1,0 +1,18 @@
+nav{
+    font-weight: bold;
+}
+.nav-item a {
+    color: white !important;
+    &:hover {
+        color: aqua !important;
+        transition: 1s;
+    }
+}
+@media(max-width: 576px){
+    nav{
+        button{
+            background-color: $greenish !important;
+            color: white !important;
+        }
+    }
+}

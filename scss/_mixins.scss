@@ -1,0 +1,16 @@
+@mixin line {
+    display: inline-block;
+    height: 20px;
+    width: 90px;
+    border-top: 5px solid white;
+}
+@mixin star {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    font-size: 35px;
+    margin: 0px 5px;
+    position: relative;
+    top: -9px;
+    right: 4px;
+}

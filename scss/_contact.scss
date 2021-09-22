@@ -1,0 +1,37 @@
+#contact {
+  h2 {
+    font-weight: bold;
+  }
+  max-width: 500px;
+  .line {
+    border-color: rgb(31, 29, 29);
+    width: 60px;
+  }
+  .star {
+    color: rgb(31, 29, 29) ack;
+  }
+}
+form {
+  width: 100%;
+  input,
+  textarea {
+    width: 100%;
+    margin-bottom: 2px;
+    padding: 6px;
+    border: none;
+    border-bottom: 1px solid lightgray;
+    color: $Contactforminputtext;
+    font-family: Lato-Bold;
+  }
+  button {
+    border: none !important;
+    float: left;
+    background-color: $greenish !important;
+    font-weight: bold !important;
+    border: none;
+    &:hover{
+        background-color: aqua !important;
+        transition: 0.5s;
+    }
+  }
+}

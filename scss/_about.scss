@@ -1,0 +1,20 @@
+#about {
+    h2{
+        font-weight: bold;
+    }
+    background-color: $greenish;
+    p {
+      text-align: left;
+    }
+    #findOut{
+        &:hover{
+            background-color: aqua !important;
+        }
+    }
+    .div-text {
+      width: 500px;
+    }
+    .line{
+        width: 70px;
+    }
+  }
